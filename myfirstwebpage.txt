@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>   
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="https://markxephr.github.io/styles.css">
+<script src="https://markxephr.github.io/javascript.js"></script>
+
+<title>My First Webpage</title> 
+</head> 
+<body>  
+<hr> 
+<p><b><center><h1>Hello World</h1></center></b></p>
+<br>
+<hr>
+<br>
+<hr>
+<p><center>Greetings! Welcome to the first experimental webpage built using HTML 5 during the Fall Semester 
+of 2021 in the Educational Technology Program</center></p>
+
+</p> 
+	<a href="index.html">Click here to go back to the index page</a>
+<hr>
+<div>
+<ol>
+	<li><h2><u>Gold</u></h2></li>
+	<li><h2><u>Silver</u></h2></li>
+	<li><h2><u>Bronze</u></h2></li>
+</ol>
+</div>
+
+<button onclick="changeBlue()">Blue!</button>
+<button onclick="changeYellow()">Yellow!</button>
+<button onclick="changeRed()">Red!</button>
+<p>Refresh the page to reset the background</p>
+
+<marquee width="50%" height="100px" direction="down" scrollamount="30"><center><font size="30px">This is a sample marquee across the webpage</font></center></marquee>
+<hr>
+<marquee direction="right">Chase this <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">link</a>, quick!</marquee>
+
+  
+</body>
+</html>
