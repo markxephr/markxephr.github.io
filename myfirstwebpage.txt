@@ -20,6 +20,8 @@ of 2021 in the Educational Technology Program</center></p>
 
 </p> 
 	<a href="index.html">Click here to go back to the index page</a>
+		<br>
+	<a href="myfirstwebpage.txt" target="_blank">Click here to see the HTML code for this page</a>
 <hr>
 <div>
 <ol>
