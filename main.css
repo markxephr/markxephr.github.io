@@ -4,11 +4,12 @@ html, body {
   flex-direction: column;
   font-weight: 300;
   line-height: 1.5;
+  padding: 50px;
 }
 
 body {
   font-family: 'Lato', sans-serif;
-  background-image: url('https://content.codecademy.com/projects/make-a-website/lesson-3/background.jpg');
+  background-image: url('https://cdn.wallpapersafari.com/16/1/OMR5u2.jpg');
   background-position: center top;
   background-size: cover;
   margin: 0;
