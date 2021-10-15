@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HTML & CSS webpage example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@font-face {font-family: Playstation; src: url('PlayGreatBold-8MgEZ.ttf');}
+@font-face {font-family: Xbox; src: url('X360.ttf');}
+@font-face {font-family: Wii; src: url('contm.ttf');}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  background-image: url('https://i.pinimg.com/originals/1f/37/f4/1f37f4a57453aa29dc17deb798ac9d58.jpg');
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  max-height: 500px;
+  overflow: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+h3 {
+text-align: center;
+font-size: 15px;
+}
+
+h3.playstation {
+font-family: Playstation;
+color: white;
+}
+
+h3.xbox {
+font-family: Xbox;
+color: white;
+}
+
+h3.wii {
+font-family: Wii;
+color: white;
+
+}
+
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width:100%;
+max-height:100%;
+border: 2px solid black;
+padding: 10px;
+}
+
+img:hover {
+border: 5px dotted white;
+}
+
+ul li {
+list-style: square;
+color: white;
+}
+
+span {
+border: 2px dotted white;
+background-color: gray;
+padding: 10px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Comparing Major Current-Gen Consoles</h2>
+<span>*click on the image if you want to purchase one!</span>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#003791;">
+  <h3 class="playstation">PLAYSTATION</h3>
+  <a href="https://direct.playstation.com/en-us/hardware/ps5" target="_blank">
+  <img src="https://media.direct.playstation.com/is/image/sierialto/PS5-front-with-dualsense">
+</a> 
+ <p>
+  <ul>
+  <li>CPU: AMD Zen 2-based CPU with 8 cores at 3.5GHz (variable frequency)
+</li>
+  <li>GPU: 10.28 TFLOPs, 36 CUs at 2.23GHz (variable frequency)
+</li>
+  <li>GPU architecture: Custom RDNA 2.
+</li>
+  <li>Memory interface: 16GB GDDR6 / 256-bit.
+</li>
+  <li>Memory bandwidth: 448GB/s.
+</li>
+  <li>Internal storage: Custom 825GB SSD.
+</li>
+  <li>Usable storage: 667.2GB.
+</li>
+
+  </ul>
+  </p>
+  
+  </div>
+  
+  <div class="column" style="background-color:#107C10;">
+    <h3 class="xbox">Xbox</h3>
+	<a href="https://www.xbox.com/en-US/consoles/xbox-series-x" target="_blank">
+	<img src="https://compass-ssl.xbox.com/assets/b9/0a/b90ad58f-9950-44a7-87fa-1ee8f0b6a90e.jpg?n=XSX_Page-Hero-0_768x792.jpg">
+ </a>
+  <p>
+  <ul>
+  <li>CPU: 3.8-GHz AMD Zen 2-based processor.
+</li>
+  <li>GPU: 12-teraflop AMD RDNA 2 GPU with 52 Compute Units (CU)
+</li>
+  <li>GPU architecture: Custom RDNA 2.
+</li>
+  <li>Memory interface: 16GB
+</li>
+  <li>Max Resolution: 8K
+</li>
+  <li>Internal storage: 1 TB NVMe SSD.
+</li>
+
+  </ul>
+  </p>
+  
+
+ </div>
+  
+  <div class="column" style="background-color:#009ac7;">
+    <h3 class="wii">Switch</h3>
+	<a href="https://www.nintendo.com/switch/oled-model/" target="_blank">
+	<img src="https://m.media-amazon.com/images/I/61-PblYntsL._AC_SL1500_.jpg">
+</a>
+  <p>
+  <ul>
+  <li>CPU: NVIDIA Custom Tegra Processor
+</li>
+  <li>Internal storage: 64 GB <br>
+Users can easily expand storage space using microSDHC or microSDXC cards up to 2TB (sold separately).
+</li>
+
+  </ul>
+  </p> 
+
+ </div>
+  
+</div>
+
+
+
+<div class="footer">
+  <p>Educational purposes only. This site has no affiliation with Sony, Microsoft, Nintendo, or its affiliates.</p>
+</div>
+
+</body>
+</html>
+
+
